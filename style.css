@@ -1,0 +1,55 @@
+/* Holidays Sale Area  */
+
+.holidays-sale__banner {
+  margin-top: 5rem;
+  position: relative;
+  text-align: right;
+  outline: 1rem dashed gold;
+}
+
+.holidays-sale__banner-content {
+  display: flex;
+  gap: 10rem;
+  justify-content: space-between;
+  margin-bottom: -0.9rem;
+}
+
+.holidays-sale__banner-content>.gift-box {
+  width: 70%;
+}
+
+.holidays-sale__banner-content .gift-box>*,
+.holidays-sale__banner-content .discount-lady>* {
+  width: 100%;
+}
+
+.holidays-sale__banner-content .gift-box {
+  position: relative;
+}
+
+.holidays-sale__banner-content .gift-box>img {
+  max-width: 700px;
+  position: absolute;
+  left: 0;
+  top: 5%;
+}
+
+.holidays-sale__banner-content .discount-lady {
+  position: relative;
+  outline: 2px solid firebrick;
+
+}
+
+.holidays-sale__banner-content .discount-lady>.discount-badge {
+  max-width: 240px;
+  position: absolute;
+  /* border-radius: 50%; */
+  top: 20%;
+  left: -120px;
+}
+
+
+
+.holidays-sale__banner .red-banner {
+  width: 100%;
+}
